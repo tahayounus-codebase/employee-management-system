@@ -1,4 +1,4 @@
-#Employee Management System (EMS) 🚀
+##Employee Management System (EMS) 🚀
 A modern, responsive, and feature-rich Employee Management System built with React.js. This application helps organizations efficiently manage employee records, track performance, handle departments, and streamline administrative tasks with a clean and user-friendly interface.
 
 #✨ Features
