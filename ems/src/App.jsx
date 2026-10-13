@@ -10,12 +10,16 @@ const App = () => {
     if(email == 'admin@me.com' && password == '123'){
       console.log("this is admin");
     }
+    else if (email == 'user@me.com' && password == 123) {
+      console.log('this is user');
+      
+    }
     else{
       alert("Invalid Credential")
     }
   }
 
-  handleLogin('admin@me.com',123);
+  handleLogin('user@me.com',123);
 
   return (
     <>
