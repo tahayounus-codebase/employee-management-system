@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TaskContext = ({children}) => {
+const AuthProvider = ({children}) => {
   return (
     <div>
         {children}
@@ -8,4 +8,4 @@ const TaskContext = ({children}) => {
   )
 }
 
-export default TaskContext
+export default AuthProvider
