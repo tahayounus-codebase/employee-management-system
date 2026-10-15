@@ -9,12 +9,11 @@ const Login = ({handleLogin}) => {
   const submitHandler = (e)=>{
     e.preventDefault();
     handleLogin(email,password)
-
     setemail('')
     setPassword('')  
   }
   return (
-    <div className='h-screen w-screen flex items-center justify-center'>
+    <div className='h-screen w-full flex items-center justify-center'>
         <div className="border-2 border-emerald-600 rounded-xl p-20">
             <form 
             onSubmit={(e)=>{
